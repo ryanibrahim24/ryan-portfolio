@@ -10,24 +10,24 @@ function toggleDropdown() {
 
 <template>
   <nav class="py-5">
-    <div class="container mx-auto px-2 max-w-5xl">
+    <div class="container max-w-5xl px-2 mx-auto">
       <div class="flex items-center justify-between">
-        <div class="flex items-center w-1/3 sm:w-1/12 md:w-3/12">
+        <div class="flex items-center w-2/3 sm:w-3/12 md:w-4/12">
           <div
-            class="flex items-center justify-center w-10 h-10 mr-4 text-xl text-white rounded-lg shadow-lg bg-gradient-to-r from-sky-500 to-indigo-500"
+            class="flex items-center justify-center w-10 h-10 mr-4 text-xl text-white rounded-lg shadow-lg font-archivo bg-gradient-to-r from-indigo-500 to-fuchsia-500"
           >
             <RouterLink to="/">R</RouterLink>
           </div>
           <p
-            class="hidden md:block font-sans text-xl font-medium text-gray-600"
+            class="flex items-center text-xl text-black sm:text-lg md:text-xl font-blackops"
           >
-            Ryan Ibrahim
+            RYAN IBRAHIM
           </p>
         </div>
         <div
-          class="hidden sm:block sm:w-8/12 md:w-8/12 font-sans font-medium text-gray-600"
+          class="hidden sm:items-center justify-end font-base font-archivo text-primary sm:flex sm:w-8/12 md:w-8/12"
         >
-          <ul class="flex justify-end sm:space-x-6 lg:space-x-12 text-xl">
+          <ul class="flex justify-end text-xl sm:space-x-6 lg:space-x-12">
             <li>
               <RouterLink to="/" class="hover:underline">Home</RouterLink>
             </li>
@@ -48,7 +48,7 @@ function toggleDropdown() {
             </li>
           </ul>
         </div>
-        <div class="w-2/3 sm:w-3/12 md:w-1/12">
+        <div class="w-1/3 sm:w-1/12 md:w-1/12">
           <ul class="flex items-center justify-end space-x-3 lg:space-x-5">
             <li>
               <a href="https://github.com/ryanibrahim24" target="_blank">
@@ -75,7 +75,7 @@ function toggleDropdown() {
               <button
                 id="dropdownMenuIconButton"
                 data-dropdown-toggle="dropdownDots"
-                class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-900 rounded-lg bg-secondary focus:ring-4 focus:outline-none focus:ring-gray-50"
                 type="button"
                 @click="toggleDropdown"
               >
@@ -95,7 +95,7 @@ function toggleDropdown() {
               <!-- Dropdown menu -->
               <div
                 id="dropdownDots"
-                class="z-50 fixed right-5 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
+                class="fixed z-50 bg-white divide-y divide-gray-100 rounded-lg shadow right-5 dark:bg-gray-700 dark:divide-gray-600"
               >
                 <ul
                   class="py-2 text-sm text-gray-700 dark:text-gray-200"

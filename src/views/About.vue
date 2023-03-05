@@ -47,31 +47,31 @@ const informal = ref([
 </script>
 
 <template>
-  <div class="container mx-auto mt-5 sm:mt-10 max-w-5xl px-2 md:px-3 lg:px-4">
-    <div class="w-full lg:w-3/5 text-gray-600">
-      <div class="font-poppins space-y-[36]">
-        <h1 class="font-bold text-indigo-600 text-3xl sm:text-4xl md:text-5xl lg:text-[50px]">About Me</h1>
+  <div class="container max-w-5xl px-2 mx-auto mt-5 sm:mt-10 md:px-3 lg:px-4">
+    <div class="w-full text-primary lg:w-3/5">
+      <div class="font-archivo space-y-[36]">
+        <h1 class="font-blackops font-normal text-black text-3xl sm:text-4xl md:text-5xl lg:text-[50px]">ABOUT ME</h1>
         <p class="pt-4">
           My name is Ryan Ibrahim, and I am very passionate about the world of technology, particularly in website development. I find the Front End world very intriguing because it offers the opportunity to combine creativity and logic to create an attractive and interactive website interface. Although I don't have a background in IT education, I strive to learn it through self-taught methods, taking online classes, and participating in offline training programs organized by the government. This web portfolio is the implementation of my learning results. I have learned several technologies such as CSS Frameworks: Tailwind, Bootstrap, Vue.js Framework, HTML, and have some knowledge of the PHP programming language.
         </p>
       </div>
 
-      <div class="font-poppins y-[36] text-gray-600 my-5 sm:my-10">
-        <h1 class="font-bold text-indigo-600 text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38] ">
-          Work Experience
+      <div class="font-archivo y-[36] text-primary my-5 sm:my-10">
+        <h1 class="font-blackops text-black text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38] ">
+          WORK EXPERIENCE
         </h1>
         <template v-for="work in works">
           <div class="space-y-[30] pt-4">
             <div class="flex items-center">
-              <div class="w-3/5 flex justify-start">
+              <div class="flex justify-start w-3/5">
                 <p>{{ work.job }}</p>
               </div>
-              <div class="w-2/5 flex justify-end">
-                <span class="py-1 px-3 bg-sky-300 rounded-full">Full Time</span>
+              <div class="flex justify-end w-2/5">
+                <span class="px-3 py-1 bg-black rounded-full text-secondary">Full Time</span>
               </div>
             </div>
-            <div class="flex items-center pt-4 sm:pb-6 sm:border-b-4">
-              <div class="w-3/5 sm:w-2/5 flex justify-start">
+            <div class="flex items-center pt-4 border-b-4 sm:pb-6 border-primary">
+              <div class="flex justify-start w-3/5 sm:w-2/5">
                 <img
                   src="@/assets/img/building.svg"
                   alt="job"
@@ -79,7 +79,7 @@ const informal = ref([
                 />
                 <p>{{ work.tempat }}</p>
               </div>
-              <div class="hidden sm:w-1/5 sm:flex justify-end">
+              <div class="justify-end hidden sm:w-1/5 sm:flex">
                 <img
                   src="@/assets/img/location.svg"
                   alt="job"
@@ -87,7 +87,7 @@ const informal = ref([
                 />
                 <span class="">{{ work.kota }}</span>
               </div>
-              <div class="w-2/5 sm:w-2/5 flex justify-end">
+              <div class="flex justify-end w-2/5 sm:w-2/5">
                 <img
                   src="@/assets/img/time.svg"
                   alt="job"
@@ -97,7 +97,7 @@ const informal = ref([
               </div>
               
             </div>
-            <div class="sm:hidden w-full flex justify-start pb-4 border-b-4 sm:border-b-0">
+            <div class="flex justify-start w-full pb-4 sm:hidden sm:border-b-0">
                     <img
                       src="@/assets/img/location.svg"
                       alt="job"
@@ -109,22 +109,22 @@ const informal = ref([
         </template>
       </div>
 
-      <div class="font-poppins y-[36] mb-5 sm:mb-10">
-        <h1 class="font-bold text-indigo-600 text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38]">
-          Formal Education
+      <div class="font-archivo y-[36] mb-5 sm:mb-10">
+        <h1 class="font-blackops text-black text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38]">
+          FORMAL EDUCATION
         </h1>
         <template v-for="edu in education">
           <div class="space-y-[30] pt-4">
             <div class="flex items-center">
-              <div class="w-3/5 flex justify-start">
+              <div class="flex justify-start w-3/5">
                 <p>{{ edu.title }}</p>
               </div>
-              <div class="w-2/5 flex justify-end">
-                <span class="py-1 px-3 bg-sky-300 rounded-full">Full Time</span>
+              <div class="flex justify-end w-2/5">
+                <span class="px-3 py-1 bg-black rounded-full text-secondary">Full Time</span>
               </div>
             </div>
-            <div class="flex items-center pt-4 pb-6 border-b-4">
-              <div class="w-3/5 flex justify-start">
+            <div class="flex items-center pt-4 pb-6 border-b-4 border-primary">
+              <div class="flex justify-start w-3/5">
                 <img
                   src="@/assets/img/building.svg"
                   alt="job"
@@ -132,7 +132,7 @@ const informal = ref([
                 />
                 <p>{{ edu.tempat }}</p>
               </div>
-              <div class="w-2/5 flex justify-end">
+              <div class="flex justify-end w-2/5">
                 <img
                   src="@/assets/img/time.svg"
                   alt="job"
@@ -145,22 +145,22 @@ const informal = ref([
         </template>
       </div>
 
-      <div class="font-poppins y-[36] mb-10 sm:mb-20">
-            <h1 class="font-bold text-indigo-600 text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38] ">
-              Informal Education
+      <div class="font-archivo y-[36] mb-10 sm:mb-20">
+            <h1 class="font-blackops text-black text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38] ">
+              INFORMAL EDUCATION
             </h1>
             <template v-for="edu2 in informal">
               <div class="space-y-[30] pt-4">
                 <div class="flex items-center">
-                  <div class="w-3/5 flex justify-start">
+                  <div class="flex justify-start w-3/5">
                     <p>{{ edu2.title }}</p>
                   </div>
-                  <div class="w-2/5 flex justify-end">
-                    <span class="py-1 px-3 bg-sky-300 rounded-full">{{edu2.site}}</span>
+                  <div class="flex justify-end w-2/5">
+                    <span class="px-3 py-1 bg-black rounded-full text-secondary">{{edu2.site}}</span>
                   </div>
                 </div>
-                <div class="flex items-center pt-4 pb-6 border-b-4">
-                  <div class="w-3/5 flex justify-start">
+                <div class="flex items-center pt-4 pb-6 border-b-4 border-primary">
+                  <div class="flex justify-start w-3/5">
                     <img
                       src="@/assets/img/building.svg"
                       alt="job"
@@ -168,7 +168,7 @@ const informal = ref([
                     />
                     <p>{{ edu2.tempat }}</p>
                   </div>
-                  <div class="w-2/5 flex justify-end">
+                  <div class="flex justify-end w-2/5">
                     <img
                       src="@/assets/img/time.svg"
                       alt="job"

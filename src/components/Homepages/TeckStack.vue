@@ -1,5 +1,5 @@
 <script setup>
-import { ref ,} from "vue";
+import { ref } from "vue";
 
 const items = ref ([
     { id: 1 ,img: 'css.svg' }, 
@@ -18,21 +18,21 @@ const items = ref ([
 </script>
 
 <template>
-  <div class="container mx-auto max-w-5xl px-2 md:px-3 lg:px-4 xl:px-0">
-    <div class="items-center space-y-4 font-poppins justify-center">
-      <h1 class="block text-center text-2xl md:3xl lg:text-4xl font-semibold text-indigo-600">
-        My Tech Stack
+  <div class="container max-w-5xl px-2 mx-auto md:px-3 lg:px-4 xl:px-0">
+    <div class="items-center justify-center space-y-4">
+      <h1 class="block text-2xl text-center text-black font-blackops md:3xl lg:text-4xl">
+        MY TECH STACK
       </h1>
-      <p class="text-xl lg:text-2xl items-center font-semibold text-gray-600 text-center">
+      <p class="items-center text-xl text-center font-blackops text-primary lg:text-2xl">
         Technologies I've been working with recently
       </p>
     </div>
     
     <div class="my-10 lg:my-20">
       <div class="flex flex-wrap items-baseline justify-center space-y-7">
-        <template v-for="item in items" :key="item.id" >
+        <template v-for="item in items" >
           <div class="w-4/12 md:w-2/12 ">
-            <img :src=" '/src/assets/img/'+ item.img"  class="w-auto h-24 sm:h-28 sm:w-28 mx-auto my-auto" />
+            <img :src=" `/img/${item.img}`"  class="w-auto h-24 mx-auto my-auto sm:h-28 sm:w-28" />
           </div>
         </template>
       </div>

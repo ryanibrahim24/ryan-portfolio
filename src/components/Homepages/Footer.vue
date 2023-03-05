@@ -3,23 +3,23 @@
 </script>
 
 <template>
-  <div class="container mx-auto px-2 max-w-5xl">
+  <div class="container max-w-5xl px-2 mx-auto">
     <div class="py-5">
       <div
-        class="flex items-center justify-center pb-5 border-b-2 border-gray-300"
+        class="flex items-center justify-center pb-5 border-b-2 border-primary"
       >
-        <div class="hidden md:flex items-center md:w-3/12">
+        <div class="items-center hidden md:flex md:w-3/12">
           <div
-            class="flex items-center justify-center w-10 h-10 mr-4 text-xl text-white rounded-lg shadow-lg bg-gradient-to-r from-sky-500 to-indigo-500"
+            class="flex items-center justify-center w-10 h-10 mr-4 text-xl text-white rounded-lg shadow-lg font-archivo bg-gradient-to-r from-indigo-500 to-fuchsia-500"
           >
             <RouterLink to="/">R</RouterLink>
           </div>
-          <p class="font-sans text-xl font-medium text-gray-600">
-            Ryan Ibrahim
+          <p class="text-xl font-normal text-black font-blackops">
+            RYAN IBRAHIM
           </p>
         </div>
-        <div class="w-10/12 md:w-8/12 font-sans font-medium text-gray-600">
-          <div class="flex justify-start md:justify-end md:mr-6 lg:mr-12 sm:space-x-6 lg:space-x-12 text-lg">
+        <div class="w-10/12 font-normal font-archivo md:w-8/12 text-primary">
+          <div class="flex justify-start text-lg md:justify-end md:mr-6 lg:mr-12 sm:space-x-6 lg:space-x-12">
             <p class="hidden sm:block">+62 857 9562 5011</p>
             <p>ryanibrahim27@gmail.com</p>
           </div>
@@ -48,9 +48,9 @@
         </div>
       </div>
 
-      <div class="sm:flex items-center py-3 sm:py-5 sm:justify-items-scretch">
-        <div class="hidden sm:block sm:w-2/3 lg:w-1/2 font-sans font-medium text-gray-600">
-          <ul class="flex justify-start sm:space-x-6 lg:space-x-12 text-xl">
+      <div class="items-center py-3 sm:flex sm:py-5 sm:justify-items-scretch">
+        <div class="hidden font-normal font-archivo sm:block sm:w-2/3 text-primary">
+          <ul class="flex justify-start text-lg md:text-xl sm:space-x-6 lg:space-x-12">
             <li>
               <RouterLink to="/" class="hover:underline">Home</RouterLink>
             </li>
@@ -65,8 +65,8 @@
             </li>
           </ul>
         </div>
-        <div class="sm:w-1/3 lg:w-1/2 font-sans font-medium text-gray-600">
-          <div class="sm:flex sm:justify-end text-lg">
+        <div class="font-normal font-archivo sm:w-1/3 text-primary">
+          <div class="text-md md:text-lg sm:flex sm:justify-end">
             <p class="text-center">Designed By Pavad MG</p>
           </div>
         </div>
