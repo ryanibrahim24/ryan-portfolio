@@ -9,8 +9,8 @@ function toggleDropdown() {
 </script>
 
 <template>
-  <nav class="py-5">
-    <div class="container max-w-5xl px-2 mx-auto">
+  <nav class="py-5 bg-black" >
+    <div class="container max-w-5xl px-2 mx-auto" data-aos="fade-right">
       <div class="flex items-center justify-between">
         <div class="flex items-center w-2/3 sm:w-3/12 md:w-4/12">
           <div
@@ -19,13 +19,13 @@ function toggleDropdown() {
             <RouterLink to="/">R</RouterLink>
           </div>
           <p
-            class="flex items-center text-xl text-black sm:text-lg md:text-xl font-blackops"
+            class="flex items-center text-xl text-secondary sm:text-lg md:text-xl font-blackops"
           >
             RYAN IBRAHIM
           </p>
         </div>
         <div
-          class="hidden sm:items-center justify-end font-base font-archivo text-primary sm:flex sm:w-8/12 md:w-8/12"
+          class="hidden sm:items-center justify-end font-base font-archivo text-secondary sm:flex sm:w-8/12 md:w-8/12"
         >
           <ul class="flex justify-end text-xl sm:space-x-6 lg:space-x-12">
             <li>
@@ -75,7 +75,7 @@ function toggleDropdown() {
               <button
                 id="dropdownMenuIconButton"
                 data-dropdown-toggle="dropdownDots"
-                class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-900 rounded-lg bg-secondary focus:ring-4 focus:outline-none focus:ring-gray-50"
+                class="inline-flex items-center p-2 text-sm font-medium text-center text-secondary rounded-lg bg-black focus:ring-4 focus:outline-none focus:ring-gray-50"
                 type="button"
                 @click="toggleDropdown"
               >

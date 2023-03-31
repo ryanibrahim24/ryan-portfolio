@@ -3,7 +3,7 @@ import { RouterLink } from "vue-router";
 </script>
 
 <template>
-    <div class="container items-center max-w-5xl px-2 mx-auto my-10 sm:flex sm:px-3 md:px-4 lg:px-4 xl:px-0 lg:my-20 sm:my-10">
+    <div class="container items-center max-w-5xl px-2 mx-auto my-10 sm:flex sm:px-3 md:px-4 lg:px-4 xl:px-0 lg:my-20 sm:my-10" data-aos="fade-up">
         <div class="items-center space-y-2 text-base font-normal text-black lg:space-y-4 sm:text-lg md:text-2xl lg:text-3xl md:w-2/3 font-blackops">
             <p class="">Hello...</p>
             <p class="">My name is <span class="text-2xl font-normal text-transparent font-blackops sm:text-3xl md:text-4xl lg:text-5xl bg-clip-text bg-gradient-to-r from-indigo-500 to-fuchsia-500">RYAN IBRAHIM</span></p>

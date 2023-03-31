@@ -3,10 +3,10 @@
 </script>
 
 <template>
-  <div class="container max-w-5xl px-2 mx-auto">
-    <div class="py-5">
+  <div class="py-5 px-2 bg-black" >
+    <div class="container max-w-5xl mx-auto" data-aos="fade-right">
       <div
-        class="flex items-center justify-center pb-5 border-b-2 border-primary"
+        class="flex items-center justify-center pb-5 border-b-2 border-secondary"
       >
         <div class="items-center hidden md:flex md:w-3/12">
           <div
@@ -14,11 +14,11 @@
           >
             <RouterLink to="/">R</RouterLink>
           </div>
-          <p class="text-xl font-normal text-black font-blackops">
+          <p class="text-xl font-normal text-secondary font-blackops">
             RYAN IBRAHIM
           </p>
         </div>
-        <div class="w-10/12 font-normal font-archivo md:w-8/12 text-primary">
+        <div class="w-10/12 font-normal font-archivo md:w-8/12 text-secondary">
           <div class="flex justify-start text-lg md:justify-end md:mr-6 lg:mr-12 sm:space-x-6 lg:space-x-12">
             <p class="hidden sm:block">+62 857 9562 5011</p>
             <p>ryanibrahim27@gmail.com</p>
@@ -49,7 +49,7 @@
       </div>
 
       <div class="items-center py-3 sm:flex sm:py-5 sm:justify-items-scretch">
-        <div class="hidden font-normal font-archivo sm:block sm:w-2/3 text-primary">
+        <div class="hidden font-normal font-archivo sm:block sm:w-2/3 text-secondary">
           <ul class="flex justify-start text-lg md:text-xl sm:space-x-6 lg:space-x-12">
             <li>
               <RouterLink to="/" class="hover:underline">Home</RouterLink>
@@ -65,7 +65,7 @@
             </li>
           </ul>
         </div>
-        <div class="font-normal font-archivo sm:w-1/3 text-primary">
+        <div class="font-normal font-archivo sm:w-1/3 text-secondary">
           <div class="text-md md:text-lg sm:flex sm:justify-end">
             <p class="text-center">Designed By Pavad MG</p>
           </div>

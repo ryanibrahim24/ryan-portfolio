@@ -6,8 +6,8 @@ const items = ref ([
     { id: 2 ,img: 'html.svg' },
     { id: 3 ,img: 'js.svg' },
     { id: 4 ,img: 'vue.svg' },
-    { id: 5 ,img: 'vite.svg' },
-    { id: 6 ,img: 'netlify.svg' },
+    { id: 5 ,img: 'nuxt-2.svg' },
+    { id: 6 ,img: 'laravel-2.svg' },
     { id: 7 ,img: 'figma.svg' },
     { id: 8 ,img: 'git.svg' },
     { id: 9 ,img: 'github.svg' },
@@ -18,7 +18,7 @@ const items = ref ([
 </script>
 
 <template>
-  <div class="container max-w-5xl px-2 mx-auto md:px-3 lg:px-4 xl:px-0">
+  <div class="container max-w-5xl px-2 mx-auto md:px-3 lg:px-4 xl:px-0" data-aos="fade-up">
     <div class="items-center justify-center space-y-4">
       <h1 class="block text-2xl text-center text-black font-blackops md:3xl lg:text-4xl">
         MY TECH STACK

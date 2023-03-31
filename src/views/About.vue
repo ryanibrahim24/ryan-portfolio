@@ -47,7 +47,7 @@ const informal = ref([
 </script>
 
 <template>
-  <div class="container max-w-5xl px-2 mx-auto mt-5 sm:mt-10 md:px-3 lg:px-4">
+  <div class="container max-w-5xl px-2 mx-auto mt-5 sm:mt-10 md:px-3 lg:px-4" data-aos="fade-right">
     <div class="w-full text-primary lg:w-3/5">
       <div class="font-archivo space-y-[36]">
         <h1 class="font-blackops font-normal text-black text-3xl sm:text-4xl md:text-5xl lg:text-[50px]">ABOUT ME</h1>
@@ -181,6 +181,6 @@ const informal = ref([
             </template>
           </div>
     </div>
-    <Footer/>
   </div>
+  <Footer/>
 </template>
