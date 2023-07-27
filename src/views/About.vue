@@ -4,16 +4,22 @@ import Footer from '@/components/Homepages/Footer.vue'
 
 const works = ref([
   {
-    job: "Mechanical Engineering",
-    tempat: "Multistrada Arah Sarana",
-    kota: "Bekasi",
-    waktu: "Jul 2021 - Oct 2021",
+    job: "Intership Front-End Developer",
+    tempat: "Abercode",
+    kota: "Bandung",
+    waktu: "Jun 2023 - Present",
   },
   {
     job: "Mechanical Engineering",
     tempat: "Global Mega Indonesia",
     kota: "Bekasi",
     waktu: "Feb 2022 - May 2022",
+  },
+  {
+    job: "Mechanical Engineering",
+    tempat: "Multistrada Arah Sarana",
+    kota: "Bekasi",
+    waktu: "Jul 2021 - Oct 2021",
   },
 ]);
 
