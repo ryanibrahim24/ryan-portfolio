@@ -2,14 +2,14 @@
 import { ref } from "vue";
 
 const items = ref ([
-    { id: 1 ,img: 'css.svg' }, 
-    { id: 2 ,img: 'html.svg' },
+    { id: 1 ,img: 'react-js-icon.svg' }, 
+    { id: 2 ,img: 'nextjs-icon.svg' },
     { id: 3 ,img: 'js.svg' },
     { id: 4 ,img: 'vue.svg' },
     { id: 5 ,img: 'nuxt-2.svg' },
     { id: 6 ,img: 'laravel-2.svg' },
     { id: 7 ,img: 'figma.svg' },
-    { id: 8 ,img: 'git.svg' },
+    { id: 8 ,img: 'bootstrap-5-logo-icon.svg' },
     { id: 9 ,img: 'github.svg' },
     { id: 10 ,img: 'tailwind.svg' },
     { id: 11 ,img: 'vscode.svg' },

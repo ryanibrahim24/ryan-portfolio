@@ -2,6 +2,26 @@
 import { ref } from "vue";
 
 const projects = ref([
+{
+    title: "Todo List App",
+    describe: "This is my first web project using Next.js and Firebase, and I also utilized the Chakra UI CSS framework. If you have a variety of activities and don't want to forget anything, you can use this website to store your important notes. This website was also my first assignment during my internship.",
+    stack: "Next Js, Firebase, Chakra UI",
+    img: "todo.png",
+    link_app: "#",
+    link_git: "#",
+    hasLink: false,
+    hasCode: false,
+  },
+  {
+    title: "Ayoboga Admin",
+    describe: "This website uses the Next.js framework and NextUI as its technologies. It is an admin dashboard web application designed to manage content that will be displayed on both web and mobile platforms. Here, I attempted to implement CRUD functionality, consume APIs, and experiment with login authentication features. This was my second assignment during my internship.",
+    stack: "Next js, NextUI, NextAuth",
+    img: "ayoboga.png",
+    link_app: "#",
+    link_git: "#",
+    hasLink: false,
+    hasCode: false,
+  },
   {
     title: "Zullkit",
     describe: "This website is the result of my online learning about Vue.js. During the learning process, I gained knowledge in various areas such as installing Vue.js, converting HTML to Vue components, writing logic using JavaScript, splitting code into components, integrating with APIs using Axios, state management, implementing a trial payment gateway using Midtrans, and deploying the web application to Netlify. The final outcome is an attractive web application with a user-friendly interface and comprehensive features.",
@@ -9,22 +29,8 @@ const projects = ref([
     img: "zullkitimg.png",
     link_app: "https://zullkit-vue-ryan.netlify.app",
     link_git: "https://github.com/ryanibrahim24/vue-zullkit.git",
-  },
-  {
-    title: "Power Human",
-    describe: "This website is the result of my online learning about Laravel and Nuxt.js. During the learning process, I gained knowledge in various areas such as BackEnd Developer using Laravel and FrontEnd using NuxtJS. even though it can display the login view because the backend isn't finished yet, next time i will finish it so i can get a full view of this website",
-    stack: "HTML, tailwindcss, Nuxt",
-    img: "laravelnuxt.png",
-    link_app: "https://powerhuman-frontend-ryan.netlify.app/",
-    link_git: "https://github.com/ryanibrahim24/powerhuman-frontend1.git",
-  },
-  {
-    title: "Suxz",
-    describe: "Suxz is online course platform, this web landing page is a responsive design exercise and i use tailwind css, the UI design reference is from codedesign.dev by Irham Shidiq. This website still lacks features such as event handling, next time i will add some other features.",
-    stack: "HTML, tailwindcss",
-    img: "suxz.png",
-    link_app: "https://suxz-tailwind.netlify.app/",
-    link_git: "https://github.com/ryanibrahim24/latihantailwind1.git",
+    hasLink: true,
+    hasCode: true,
   },
 ]);
 </script>
@@ -62,13 +68,11 @@ const projects = ref([
                 {{ project.stack }}</span>
             </p>
             <div class="flex ">
-              <div class="flex items-center w-1/2">
-
+              <div v-if="project.hasLink" class="flex items-center w-1/2">
                 <a :href="project.link_app" target="_blank" class="pl-1 text-sm font-normal underline text-secondary">Link
                   Preview</a>
               </div>
-              <div class="flex items-center w-1/2">
-
+              <div v-if="project.hasCode" class="flex items-center w-1/2">
                 <a :href="project.link_git" target="_blank" class="pl-1 text-sm font-normal underline text-secondary">view
                   code</a>
               </div>

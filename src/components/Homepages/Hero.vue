@@ -8,7 +8,7 @@ import { RouterLink } from "vue-router";
             <p class="">Hello...</p>
             <p class="">My name is <span class="text-2xl font-normal text-transparent font-blackops sm:text-3xl md:text-4xl lg:text-5xl bg-clip-text bg-gradient-to-r from-indigo-500 to-fuchsia-500">RYAN IBRAHIM</span></p>
             <p class="">Web Development Learner</p>
-            <p class="">I am currently looking for a job as a Junior Front-end Developer</p>
+            <p class="">I am currently looking for a job as a Junior Web Developer</p>
             <p class="pb-4 text-base font-lg text-primary md:text-lg font-archivo">Click the button below for more information about me</p>
             <RouterLink to="/about" class="px-4 py-2 text-base bg-black rounded-full text-secondary hover:pointer hover:shadow-xl hover:primary ">About Me</RouterLink>
         </div>
