@@ -25,7 +25,7 @@ function toggleDropdown() {
           </p>
         </div>
         <div
-          class="hidden sm:items-center justify-end font-base font-archivo text-secondary sm:flex sm:w-8/12 md:w-8/12"
+          class="justify-end hidden sm:items-center font-base font-archivo text-secondary sm:flex sm:w-8/12 md:w-8/12"
         >
           <ul class="flex justify-end text-xl sm:space-x-6 lg:space-x-12">
             <li>
@@ -75,7 +75,7 @@ function toggleDropdown() {
               <button
                 id="dropdownMenuIconButton"
                 data-dropdown-toggle="dropdownDots"
-                class="inline-flex items-center p-2 text-sm font-medium text-center text-secondary rounded-lg bg-black focus:ring-4 focus:outline-none focus:ring-gray-50"
+                class="inline-flex items-center p-2 text-sm font-medium text-center bg-black rounded-lg text-secondary focus:ring-4 focus:outline-none focus:ring-gray-50"
                 type="button"
                 @click="toggleDropdown"
               >

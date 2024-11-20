@@ -4,10 +4,22 @@ import Footer from '@/components/Homepages/Footer.vue'
 
 const works = ref([
   {
+    job: "Calibration & Instrumentation Technician",
+    tempat: "Tirta Fresindo Jaya",
+    kota: "Bogor",
+    waktu: "Jul 2024 - Present",
+  },
+  {
+    job: "Operator Production",
+    tempat: "Nutrifood Indonesia",
+    kota: "Bekasi",
+    waktu: "Mar 2024 - Jul 2024",
+  },
+  {
     job: "Intership Front-End Developer",
     tempat: "Abercode",
     kota: "Bandung",
-    waktu: "Jun 2023 - Present",
+    waktu: "Jun 2023 - Sep 2024",
   },
   {
     job: "Mechanical Engineering",
@@ -58,7 +70,14 @@ const informal = ref([
       <div class="font-archivo space-y-[36]">
         <h1 class="font-blackops font-normal text-black text-3xl sm:text-4xl md:text-5xl lg:text-[50px]">ABOUT ME</h1>
         <p class="pt-4">
-          My name is Ryan Ibrahim, and I am very passionate about the world of technology, particularly in website development. I find the Front End world very intriguing because it offers the opportunity to combine creativity and logic to create an attractive and interactive website interface. Although I don't have a background in IT education, I strive to learn it through self-taught methods, taking online classes, and participating in offline training programs organized by the government. This web portfolio is the implementation of my learning results. I have learned several technologies such as CSS Frameworks: Tailwind, Bootstrap, Vue.js Framework, HTML, and have some knowledge of the PHP programming language.
+          My name is Ryan Ibrahim, and I am very passionate about the world of technology, 
+          particularly in industrial Engineering and web development. I have several of work experience and skill in various
+          fields such as electrical, calibration & instrumentation and software development.
+          <br>
+          <br>
+          As you can see, this website currently showcases projects focused on web development. However, in the future, it will 
+          be updated with content related to the engineering industry, such as AutoCAD, Electrical, Industrial Instrumentation, 
+          QC tools, and more.
         </p>
       </div>
 
