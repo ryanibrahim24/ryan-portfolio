@@ -6,7 +6,7 @@ import Footer from "@/components/Homepages/Footer.vue";
   <div class="container max-w-5xl px-2 mx-auto sm:px-3 md:px-4" data-aos="fade-up">
     <div class="mt-32">
         <h1
-          class="text-3xl font-normal text-center text-black font-blackops md:text-4xl lg:text-5xl"
+          class="text-3xl font-normal text-center text-bgr font-blackops md:text-4xl lg:text-5xl"
         >
           FOR ANY QUESTIONS PLEASE MAIL US:
         </h1>

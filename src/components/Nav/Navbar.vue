@@ -9,7 +9,7 @@ function toggleDropdown() {
 </script>
 
 <template>
-  <nav class="py-5 bg-black" >
+  <nav class="py-5 bg-bgr" >
     <div class="container max-w-5xl px-2 mx-auto" data-aos="fade-right">
       <div class="flex items-center justify-between">
         <div class="flex items-center w-2/3 sm:w-3/12 md:w-4/12">
@@ -75,7 +75,7 @@ function toggleDropdown() {
               <button
                 id="dropdownMenuIconButton"
                 data-dropdown-toggle="dropdownDots"
-                class="inline-flex items-center p-2 text-sm font-medium text-center bg-black rounded-lg text-secondary focus:ring-4 focus:outline-none focus:ring-gray-50"
+                class="inline-flex items-center p-2 text-sm font-medium text-center rounded-lg bg-bgr text-secondary focus:ring-4 focus:outline-none focus:ring-gray-50"
                 type="button"
                 @click="toggleDropdown"
               >

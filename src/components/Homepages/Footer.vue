@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="py-5 px-2 bg-black" >
+  <div class="px-2 py-5 bg-bgr" >
     <div class="container max-w-5xl mx-auto" data-aos="fade-right">
       <div
         class="flex items-center justify-center pb-5 border-b-2 border-secondary"
@@ -67,7 +67,7 @@
         </div>
         <div class="font-normal font-archivo sm:w-1/3 text-secondary">
           <div class="text-md md:text-lg sm:flex sm:justify-end">
-            <p class="text-center">Designed By Pavad MG</p>
+            <p class="text-center">Ryan</p>
           </div>
         </div>
       </div>

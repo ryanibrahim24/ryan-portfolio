@@ -20,10 +20,10 @@ const items = ref ([
 <template>
   <div class="container max-w-5xl px-2 mx-auto md:px-3 lg:px-4 xl:px-0" data-aos="fade-up">
     <div class="items-center justify-center space-y-4">
-      <h1 class="block text-2xl text-center text-black font-blackops md:3xl lg:text-4xl">
+      <h1 class="block text-2xl text-center text-bgr font-blackops md:3xl lg:text-4xl">
         MY TECH STACK
       </h1>
-      <p class="items-center text-xl text-center font-blackops text-primary lg:text-2xl">
+      <p class="items-center text-xl text-center font-blackops text-fnt lg:text-2xl">
         Technologies I've been working with recently
       </p>
     </div>

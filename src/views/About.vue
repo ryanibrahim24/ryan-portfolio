@@ -7,7 +7,7 @@ const works = ref([
     job: "Calibration & Instrumentation Technician",
     tempat: "Tirta Fresindo Jaya",
     kota: "Bogor",
-    waktu: "Jul 2024 - Present",
+    waktu: "Jul 2024 - Jan 2025",
   },
   {
     job: "Operator Production",
@@ -66,9 +66,9 @@ const informal = ref([
 
 <template>
   <div class="container max-w-5xl px-2 mx-auto mt-5 sm:mt-10 md:px-3 lg:px-4" data-aos="fade-right">
-    <div class="w-full text-primary lg:w-3/5">
+    <div class="w-full text-fnt lg:w-3/5">
       <div class="font-archivo space-y-[36]">
-        <h1 class="font-blackops font-normal text-black text-3xl sm:text-4xl md:text-5xl lg:text-[50px]">ABOUT ME</h1>
+        <h1 class="font-blackops font-normal text-bgr text-3xl sm:text-4xl md:text-5xl lg:text-[50px]">ABOUT ME</h1>
         <p class="pt-4">
           My name is Ryan Ibrahim, and I am very passionate about the world of technology, 
           particularly in industrial Engineering and web development. I have several of work experience and skill in various
@@ -81,8 +81,8 @@ const informal = ref([
         </p>
       </div>
 
-      <div class="font-archivo y-[36] text-primary my-5 sm:my-10">
-        <h1 class="font-blackops text-black text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38] ">
+      <div class="font-archivo y-[36] text-fnt my-5 sm:my-10">
+        <h1 class="font-blackops text-bgr text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38] ">
           WORK EXPERIENCE
         </h1>
         <template v-for="work in works">
@@ -92,10 +92,10 @@ const informal = ref([
                 <p>{{ work.job }}</p>
               </div>
               <div class="flex justify-end w-2/5">
-                <span class="px-3 py-1 bg-black rounded-full text-secondary">Full Time</span>
+                <span class="px-3 py-1 rounded-full bg-bgr text-secondary">Full Time</span>
               </div>
             </div>
-            <div class="flex items-center pt-4 border-b-4 sm:pb-6 border-primary">
+            <div class="flex items-center pt-4 border-b-4 sm:pb-6 border-bgr">
               <div class="flex justify-start w-3/5 sm:w-2/5">
                 <img
                   src="@/assets/img/building.svg"
@@ -134,8 +134,8 @@ const informal = ref([
         </template>
       </div>
 
-      <div class="font-archivo y-[36] mb-5 sm:mb-10">
-        <h1 class="font-blackops text-black text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38]">
+      <div class="font-archivo y-[36] text-fnt mb-5 sm:mb-10">
+        <h1 class="font-blackops text-bgr text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38]">
           FORMAL EDUCATION
         </h1>
         <template v-for="edu in education">
@@ -145,10 +145,10 @@ const informal = ref([
                 <p>{{ edu.title }}</p>
               </div>
               <div class="flex justify-end w-2/5">
-                <span class="px-3 py-1 bg-black rounded-full text-secondary">Full Time</span>
+                <span class="px-3 py-1 rounded-full bg-bgr text-secondary">Full Time</span>
               </div>
             </div>
-            <div class="flex items-center pt-4 pb-6 border-b-4 border-primary">
+            <div class="flex items-center pt-4 pb-6 border-b-4 border-bgr">
               <div class="flex justify-start w-3/5">
                 <img
                   src="@/assets/img/building.svg"
@@ -170,8 +170,8 @@ const informal = ref([
         </template>
       </div>
 
-      <div class="font-archivo y-[36] mb-10 sm:mb-20">
-            <h1 class="font-blackops text-black text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38] ">
+      <div class="font-archivo y-[36] text-fnt mb-10 sm:mb-20">
+            <h1 class="font-blackops text-bgr text-3xl sm:text-4xl md:text-5xl lg:text-[50px] my-[38] ">
               INFORMAL EDUCATION
             </h1>
             <template v-for="edu2 in informal">
@@ -181,10 +181,10 @@ const informal = ref([
                     <p>{{ edu2.title }}</p>
                   </div>
                   <div class="flex justify-end w-2/5">
-                    <span class="px-3 py-1 bg-black rounded-full text-secondary">{{edu2.site}}</span>
+                    <span class="px-3 py-1 rounded-full bg-bgr text-secondary">{{edu2.site}}</span>
                   </div>
                 </div>
-                <div class="flex items-center pt-4 pb-6 border-b-4 border-primary">
+                <div class="flex items-center pt-4 pb-6 border-b-4 border-bgr">
                   <div class="flex justify-start w-3/5">
                     <img
                       src="@/assets/img/building.svg"

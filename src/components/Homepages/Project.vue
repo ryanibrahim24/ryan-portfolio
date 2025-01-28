@@ -38,17 +38,17 @@ const projects = ref([
 <template>
   <div class="container max-w-5xl px-2 mx-auto sm:mt-5 lg:mt-8 md:px-3 lg:px-4" data-aos="fade-up">
     <div class="space-y-4">
-      <h1 class="block text-2xl font-normal text-center text-black font-blackops md:text-3xl lg:text-4xl">
+      <h1 class="block text-2xl font-normal text-center text-bgr font-blackops md:text-3xl lg:text-4xl">
         PROJECTS
       </h1>
-      <p class="text-xl font-normal text-center font-blackops text-primary lg:text-2xl">
+      <p class="text-xl font-normal text-center font-blackops text-fntlg:text-2xl">
         Things I've built so far
       </p>
     </div>
 
     <div class="flex flex-wrap my-10 md:my-16 lg:my-20">
       <div class="w-full px-1 my-1 align-center md:w-1/2 lg:w-1/3" v-for="project in projects">
-        <div class="overflow-hidden bg-black border border-gray-200 shadow-2xl rounded-xl">
+        <div class="overflow-hidden border border-gray-200 shadow-2xl bg-bgr rounded-xl">
           <a :href="project.link_app">
             <div class="mb-4 overflow-hidden rounded-t-xl">
               <img :src="`/img/${project.img}`" alt="project1" class="block w-[320px] h-[200px]" />
