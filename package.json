@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "flowbite": "^3.0.0",
     "pinia": "^2.0.28",
     "taos": "^1.0.2",
     "vue": "^3.2.45",
