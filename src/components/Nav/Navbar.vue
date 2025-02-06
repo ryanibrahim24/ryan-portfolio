@@ -9,7 +9,7 @@ function toggleDropdown() {
 </script>
 
 <template>
-  <nav class="py-5 bg-bgr" >
+  <nav class="py-5 bg-bgr">
     <div class="container max-w-5xl px-2 mx-auto" data-aos="fade-right">
       <div class="flex items-center justify-between">
         <div class="flex items-center w-2/3 sm:w-3/12 md:w-4/12">
@@ -42,8 +42,8 @@ function toggleDropdown() {
               >
             </li>
             <li>
-              <RouterLink to="/contact" class="mr-4 hover:underline"
-                >Contact</RouterLink
+              <RouterLink to="/article" class="mr-4 hover:underline"
+                >Article</RouterLink
               >
             </li>
           </ul>
@@ -124,14 +124,13 @@ function toggleDropdown() {
                     >
                   </li>
                   <li>
-                      <RouterLink
-                        to="/contact"
-                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >Contact</RouterLink
-                      >
-                    </li>
+                    <RouterLink
+                      to="/contact"
+                      class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >Contact</RouterLink
+                    >
+                  </li>
                 </ul>
-                
               </div>
             </li>
           </ul>
