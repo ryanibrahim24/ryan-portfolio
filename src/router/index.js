@@ -28,7 +28,18 @@ const router = createRouter({
       path: '/article',
       name: 'article',
       component: () => import('../views/article.vue')
+    },
+    {
+      path: '/article/qc',
+      name: 'article-qc',
+      component: () => import('../views/QcArticle.vue')
+    },
+    {
+      path: '/article/instrument',
+      name: 'article-ins',
+      component: () => import('../views/InsArticle.vue')
     }
+
   ]
 })
 
