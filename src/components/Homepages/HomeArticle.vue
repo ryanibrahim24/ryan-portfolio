@@ -3,8 +3,23 @@ import { ref, onMounted } from "vue";
 import Footer from "@/components/Homepages/Footer.vue";
 import { Modal } from "flowbite";
 import { initFlowbite } from "flowbite";
+import { RouterLink } from "vue-router";
 
 const projects = ref([
+  {
+    title: "Pengenalan Instrumentasi Industri",
+    img: "dasarins-1.svg",
+    materi: [
+      "dasarins-1.svg",
+      "dasarins-2.svg",
+      "dasarins-3.svg",
+      "dasarins-4.svg",
+      "dasarins-5.svg",
+      "dasarins-6.svg",
+      "dasarins-7.svg",
+    ],
+    modal: "dasarins",
+  },
   {
     title: "Karl Fishcher",
     img: "kf-1.svg",
@@ -18,35 +33,6 @@ const projects = ref([
       "kf-7.svg",
     ],
     modal: "kf",
-  },
-  {
-    title: "Chemical Oxygen Demand",
-    img: "cod-1.svg",
-    materi: [
-      "cod-1.svg",
-      "cod-2.svg",
-      "cod-3.svg",
-      "cod-4.svg",
-      "cod-5.svg",
-      "cod-6.svg",
-    ],
-    modal: "cod",
-  },
-  {
-    title: "Dissolved Oxygen Meter",
-    img: "do-1.svg",
-    materi: [
-      "do-1.svg",
-      "do-2.svg",
-      "do-3.svg",
-      "do-4.svg",
-      "do-5.svg",
-      "do-6.svg",
-      "do-7.svg",
-      "do-8.svg",
-      "do-9.svg",
-    ],
-    modal: "do",
   },
   {
     title: "Conductivity Meter",
@@ -81,13 +67,14 @@ onMounted(() => {
       <h1
         class="block text-2xl font-normal text-center text-bgr font-blackops md:text-3xl lg:text-4xl"
       >
-        Quality Control Tools
+        ARTICLES
       </h1>
-      <p
-        class="text-xl font-normal text-center font-blackops text-fnt lg:text-2xl"
-      >
-        Beberapa list alat QC di dunia industri
-      </p>
+      <RouterLink
+        to="/article">
+        <p class="text-xl font-normal text-center font-blackops text-fnt lg:text-2xl hover:underline">
+          Click Here for More Article
+        </p>
+      </RouterLink>
     </div>
 
     <div
@@ -266,5 +253,4 @@ onMounted(() => {
       </div>
     </div>
   </div>
-  <Footer />
 </template>
