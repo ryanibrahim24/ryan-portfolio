@@ -6,18 +6,18 @@ import { initFlowbite } from "flowbite";
 
 const projects = ref([
   {
-    title: "Karl Fishcher",
-    img: "kf-1.svg",
+    title: "Pengenalan Instrumentasi Industri",
+    img: "dasarins-1.svg",
     materi: [
-      "kf-1.svg",
-      "kf-2.svg",
-      "kf-3.svg",
-      "kf-4.svg",
-      "kf-5.svg",
-      "kf-6.svg",
-      "kf-7.svg",
+      "dasarins-1.svg",
+      "dasarins-2.svg",
+      "dasarins-3.svg",
+      "dasarins-4.svg",
+      "dasarins-5.svg",
+      "dasarins-6.svg",
+      "dasarins-7.svg",
     ],
-    modal: "kf",
+    modal: "dasarins",
   },
 ]);
 
