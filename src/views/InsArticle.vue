@@ -15,7 +15,7 @@ const projects = ref([
       "dasarins-4.svg",
       "dasarins-5.svg",
       "dasarins-6.svg",
-      "dasarins-7.svg",
+      "kf-7.svg",
     ],
     modal: "dasarins",
   },
