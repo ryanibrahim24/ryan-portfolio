@@ -19,6 +19,21 @@ const projects = ref([
     ],
     modal: "dasarins",
   },
+  {
+    title: "Dasar Pengukuran",
+    img: "dp-1.svg",
+    materi: [
+      "dp-1.svg",
+      "dp-2.svg",
+      "dp-3.svg",
+      "dp-4.svg",
+      "dp-5.svg",
+      "dp-6.svg",
+      "dp-7.svg",
+      "kf-7.svg",
+    ],
+    modal: "dp",
+  },
 ]);
 
 // initialize components based on data attribute selectors
