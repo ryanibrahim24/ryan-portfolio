@@ -34,6 +34,20 @@ const projects = ref([
     ],
     modal: "dp",
   },
+  {
+    title: "Dasar Pengendalian",
+    img: "dasarpengendali-1.svg",
+    materi: [
+      "dasarpengendali-1.svg",
+      "dasarpengendali-2.svg",
+      "dasarpengendali-3.svg",
+      "dasarpengendali-4.svg",
+      "dasarpengendali-5.svg",
+      "dasarpengendali-6.svg",
+      "kf-7.svg",
+    ],
+    modal: "dasarpengendali",
+  },
 ]);
 
 // initialize components based on data attribute selectors
