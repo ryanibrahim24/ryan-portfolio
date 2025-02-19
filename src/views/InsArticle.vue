@@ -174,7 +174,7 @@ onMounted(() => {
                 >
                   <img
                     :src="`/img/${materi}`"
-                    class="absolute block object-contain w-full h-full -translate-x-1/2 -translate-y-1/2 touch-pinch-zoom top-1/2 left-1/2"
+                    class="absolute block object-contain w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                     alt="..."
                   />
                 </div>
