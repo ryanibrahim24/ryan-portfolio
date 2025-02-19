@@ -48,6 +48,19 @@ const projects = ref([
     ],
     modal: "dasarpengendali",
   },
+  {
+    title: "Jenis Loop Pengendali",
+    img: "loop-1.svg",
+    materi: [
+      "loop-1.svg",
+      "loop-2.svg",
+      "loop-3.svg",
+      "loop-4.svg",
+      "loop-5.svg",
+      "kf-7.svg",
+    ],
+    modal: "loop",
+  },
 ]);
 
 // initialize components based on data attribute selectors
