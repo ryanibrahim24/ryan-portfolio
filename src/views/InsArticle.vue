@@ -85,7 +85,7 @@ onMounted(() => {
           class="overflow-hidden border border-gray-200 shadow-2xl bg-bgr rounded-xl"
         >
           <p>
-            <div class="mb-4 overflow-hidden touch-pinch-zoom rounded-t-xl">
+            <div class="mb-4 overflow-hidden rounded-t-xl">
               <img
                 :src="`/img/${project.img}`"
                 alt="img"
@@ -174,7 +174,7 @@ onMounted(() => {
                 >
                   <img
                     :src="`/img/${materi}`"
-                    class="absolute block object-contain w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                    class="absolute block object-contain w-full h-full -translate-x-1/2 -translate-y-1/2 touch-pinch-zoom top-1/2 left-1/2"
                     alt="..."
                   />
                 </div>
