@@ -80,7 +80,30 @@ const projects = ref([
     ],
     modal: "modepengendali",
   },
-  
+  {
+    title: "Transmitter",
+    img: "transmitter-1.svg",
+    materi: [
+      "transmitter-1.svg",
+      "transmitter-2.svg",
+      "transmitter-3.svg",
+      "transmitter-4.svg",
+      "transmitter-5.svg",
+      "transmitter-6.svg",
+      "kf-7.svg",
+    ],
+    modal: "transmitter",
+  },
+  {
+    title: "Controller",
+    img: "controller-1.svg",
+    materi: [
+      "controller-1.svg",
+      "controller-2.svg",
+      "kf-7.svg",
+    ],
+    modal: "controller",
+  },
 ]);
 
 // initialize components based on data attribute selectors
