@@ -104,6 +104,17 @@ const projects = ref([
     ],
     modal: "controller",
   },
+  {
+    title: "Transducer",
+    img: "transducer-1.svg",
+    materi: [
+      "transducer-1.svg",
+      "transducer-2.svg",
+      "transducer-3.svg",
+      "kf-7.svg",
+    ],
+    modal: "transducer",
+  },
 ]);
 
 // initialize components based on data attribute selectors
