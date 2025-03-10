@@ -38,6 +38,11 @@ const router = createRouter({
       path: '/article/instrument',
       name: 'article-ins',
       component: () => import('../views/InsArticle.vue')
+    },
+    {
+      path: '/article/kalibrasi',
+      name: 'article-cal',
+      component: () => import('../views/CalibrationArticle.vue')
     }
 
   ]

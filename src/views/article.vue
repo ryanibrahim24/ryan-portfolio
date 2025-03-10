@@ -18,6 +18,13 @@ const projects = ref([
     img: "ayoboga.png",
     link: "/article/instrument",
   },
+  {
+    title: "Kalibrasi",
+    describe:
+      "Artikel yang berkaitan dengan pengenalan kalibrasi alat pengukuran dalam industri",
+    img: "ayoboga.png",
+    link: "/article/kalibrasi",
+  },
 ]);
 </script>
 
