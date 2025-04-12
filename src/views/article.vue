@@ -25,6 +25,12 @@ const projects = ref([
     img: "ayoboga.png",
     link: "/article/kalibrasi",
   },
+  {
+    title: "Electrical",
+    describe: "Artikel yang membahas tentang elektrical industri",
+    img: "ayoboga.png",
+    link: "/article/electric",
+  },
 ]);
 </script>
 

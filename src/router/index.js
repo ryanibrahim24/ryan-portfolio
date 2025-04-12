@@ -43,6 +43,11 @@ const router = createRouter({
       path: '/article/kalibrasi',
       name: 'article-cal',
       component: () => import('../views/CalibrationArticle.vue')
+    },
+    {
+      path: '/article/electric',
+      name: 'article-elec',
+      component: () => import('../views/ElectricArticle.vue')
     }
 
   ]
