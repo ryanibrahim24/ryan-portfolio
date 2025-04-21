@@ -115,6 +115,30 @@ const projects = ref([
     ],
     modal: "transducer",
   },
+  
+  {
+    title: "Control Valve",
+    img: "cv-1.svg",
+    materi: [
+      "cv-1.svg",
+      "cv-2.svg",
+      "cv-3.svg",
+      "cv-4.svg",
+      "cv-5.svg",
+      "cv-6.svg",
+      "cv-7.svg",
+      "cv-8.svg",
+      "cv-9.svg",
+      "cv-10.svg",
+      "cv-11.svg",
+      "cv-12.svg",
+      "cv-13.svg",
+      "cv-14.svg",
+      "cv-15.svg",
+      "kf-7.svg",
+    ],
+    modal: "cv",
+  },
 ]);
 
 // initialize components based on data attribute selectors
