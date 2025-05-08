@@ -108,6 +108,24 @@ const projects = ref([
     ],
     modal: "pushbutton",
   },
+  {
+    title: "Selector Switch",
+    img: "selectorswitch-1.svg",
+    materi: [
+      "selectorswitch-1.svg",
+      "selectorswitch-2.svg",
+      "selectorswitch-3.svg",
+      "selectorswitch-4.svg",
+      "selectorswitch-5.svg",
+      "selectorswitch-6.svg",
+      "selectorswitch-7.svg",
+      "selectorswitch-8.svg",
+      "selectorswitch-9.svg",
+      "selectorswitch-10.svg",
+      "kf-7.svg",
+    ],
+    modal: "selectorswitch",
+  },
 ]);
 
 // initialize components based on data attribute selectors
