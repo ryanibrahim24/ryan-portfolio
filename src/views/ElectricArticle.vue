@@ -37,6 +37,20 @@ const projects = ref([
     ],
     modal: "proximity",
   },
+  {
+    title: "Limit Switch",
+    img: "limitswitch-1.svg",
+    materi: [
+      "limitswitch-1.svg",
+      "limitswitch-2.svg",
+      "limitswitch-3.svg",
+      "limitswitch-4.svg",
+      "limitswitch-5.svg",
+      "limitswitch-6.svg",
+      "kf-7.svg",
+    ],
+    modal: "limitswitch",
+  },
 ]);
 
 // initialize components based on data attribute selectors
