@@ -126,6 +126,30 @@ const projects = ref([
     ],
     modal: "selectorswitch",
   },
+  {
+    title: "Relay",
+    img: "relay-1.svg",
+    materi: [
+      "relay-1.svg",
+      "relay-2.svg",
+      "relay-3.svg",
+      "relay-4.svg",
+      "relay-5.svg",
+      "relay-6.svg",
+      "relay-7.svg",
+      "relay-8.svg",
+      "relay-9.svg",
+      "relay-10.svg",
+      "relay-11.svg",
+      "relay-12.svg",
+      "relay-13.svg",
+      "relay-14.svg",
+      "relay-15.svg",
+      "relay-16.svg",
+      "kf-7.svg",
+    ],
+    modal: "relay",
+  },
 ]);
 
 // initialize components based on data attribute selectors
