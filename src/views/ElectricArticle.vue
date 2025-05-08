@@ -51,6 +51,33 @@ const projects = ref([
     ],
     modal: "limitswitch",
   },
+  {
+    title: "Circuit Breaker",
+    img: "circuitbreaker-1.svg",
+    materi: [
+      "circuitbreaker-1.svg",
+      "circuitbreaker-2.svg",
+      "circuitbreaker-3.svg",
+      "circuitbreaker-4.svg",
+      "circuitbreaker-5.svg",
+      "circuitbreaker-6.svg",
+      "circuitbreaker-7.svg",
+      "circuitbreaker-8.svg",
+      "circuitbreaker-9.svg",
+      "circuitbreaker-10.svg",
+      "circuitbreaker-11.svg",
+      "circuitbreaker-12.svg",
+      "circuitbreaker-13.svg",
+      "circuitbreaker-14.svg",
+      "circuitbreaker-15.svg",
+      "circuitbreaker-16.svg",
+      "circuitbreaker-17.svg",
+      "circuitbreaker-18.svg",
+      "circuitbreaker-19.svg",
+      "kf-7.svg",
+    ],
+    modal: "circuitbreaker",
+  },
 ]);
 
 // initialize components based on data attribute selectors
