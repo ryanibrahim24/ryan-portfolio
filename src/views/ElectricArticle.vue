@@ -96,6 +96,18 @@ const projects = ref([
     ],
     modal: "motorstarter",
   },
+  {
+    title: "Push Button",
+    img: "pushbutton-1.svg",
+    materi: [
+      "pushbutton-1.svg",
+      "pushbutton-2.svg",
+      "pushbutton-3.svg",
+      "pushbutton-4.svg",
+      "kf-7.svg",
+    ],
+    modal: "pushbutton",
+  },
 ]);
 
 // initialize components based on data attribute selectors
