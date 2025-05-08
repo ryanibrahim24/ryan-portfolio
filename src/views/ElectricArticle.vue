@@ -78,6 +78,24 @@ const projects = ref([
     ],
     modal: "circuitbreaker",
   },
+  {
+    title: "Motor Starter",
+    img: "motorstarter-1.svg",
+    materi: [
+      "motorstarter-1.svg",
+      "motorstarter-2.svg",
+      "motorstarter-3.svg",
+      "motorstarter-4.svg",
+      "motorstarter-5.svg",
+      "motorstarter-6.svg",
+      "motorstarter-7.svg",
+      "motorstarter-8.svg",
+      "motorstarter-9.svg",
+      "motorstarter-10.svg",
+      "kf-7.svg",
+    ],
+    modal: "motorstarter",
+  },
 ]);
 
 // initialize components based on data attribute selectors
