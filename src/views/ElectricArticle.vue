@@ -170,6 +170,22 @@ const projects = ref([
     ],
     modal: "kontaktor",
   },
+  {
+    title: "Thermal Overload Relay",
+    img: "tor-1.svg",
+    materi: [
+      "tor-1.svg",
+      "tor-2.svg",
+      "tor-3.svg",
+      "tor-4.svg",
+      "tor-5.svg",
+      "tor-6.svg",
+      "tor-7.svg",
+      "tor-8.svg",
+      "kf-7.svg",
+    ],
+    modal: "tor",
+  },
 ]);
 
 // initialize components based on data attribute selectors
