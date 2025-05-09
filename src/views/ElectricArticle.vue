@@ -186,6 +186,26 @@ const projects = ref([
     ],
     modal: "tor",
   },
+  {
+    title: "Variable Speed Drive",
+    img: "inverter-1.svg",
+    materi: [
+      "inverter-1.svg",
+      "inverter-2.svg",
+      "inverter-3.svg",
+      "inverter-4.svg",
+      "inverter-5.svg",
+      "inverter-6.svg",
+      "inverter-7.svg",
+      "inverter-8.svg",
+      "inverter-9.svg",
+      "inverter-10.svg",
+      "inverter-11.svg",
+      "inverter-12.svg",
+      "kf-7.svg",
+    ],
+    modal: "inverter",
+  },
 ]);
 
 // initialize components based on data attribute selectors
