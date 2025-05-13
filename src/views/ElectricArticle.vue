@@ -266,6 +266,21 @@ const projects = ref([
     ],
     modal: "motorservo",
   },
+  {
+    title: "Solenoid Valve",
+    img: "solenoid-1.svg",
+    materi: [
+      "solenoid-1.svg",
+      "solenoid-2.svg",
+      "solenoid-3.svg",
+      "solenoid-4.svg",
+      "solenoid-5.svg",
+      "solenoid-6.svg",
+      "solenoid-7.svg",
+      "kf-7.svg",
+    ],
+    modal: "solenoid",
+  },
 ]);
 
 // initialize components based on data attribute selectors
