@@ -308,6 +308,23 @@ const projects = ref([
     ],
     modal: "silinder",
   },
+  {
+    title: "Gerbang Logika",
+    img: "gerbang-1.svg",
+    materi: [
+      "gerbang-1.svg",
+      "gerbang-2.svg",
+      "gerbang-3.svg",
+      "gerbang-4.svg",
+      "gerbang-5.svg",
+      "gerbang-6.svg",
+      "gerbang-7.svg",
+      "gerbang-8.svg",
+      "gerbang-9.svg",
+      "kf-7.svg",
+    ],
+    modal: "gerbang",
+  },
 ]);
 
 // initialize components based on data attribute selectors
