@@ -281,6 +281,33 @@ const projects = ref([
     ],
     modal: "solenoid",
   },
+  {
+    title: "Silinder Pneumatik",
+    img: "silinder-1.svg",
+    materi: [
+      "silinder-1.svg",
+      "silinder-2.svg",
+      "silinder-3.svg",
+      "silinder-4.svg",
+      "silinder-5.svg",
+      "silinder-6.svg",
+      "silinder-7.svg",
+      "silinder-8.svg",
+      "silinder-9.svg",
+      "silinder-10.svg",
+      "silinder-11.svg",
+      "silinder-12.svg",
+      "silinder-13.svg",
+      "silinder-14.svg",
+      "silinder-15.svg",
+      "silinder-16.svg",
+      "silinder-17.svg",
+      "silinder-18.svg",
+      "silinder-19.svg",
+      "kf-7.svg",
+    ],
+    modal: "silinder",
+  },
 ]);
 
 // initialize components based on data attribute selectors
