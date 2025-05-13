@@ -252,6 +252,20 @@ const projects = ref([
     ],
     modal: "motorlistrik",
   },
+  {
+    title: "Motor Servo",
+    img: "motorservo-1.svg",
+    materi: [
+      "motorservo-1.svg",
+      "motorservo-2.svg",
+      "motorservo-3.svg",
+      "motorservo-4.svg",
+      "motorservo-5.svg",
+      "motorservo-6.svg",
+      "kf-7.svg",
+    ],
+    modal: "motorservo",
+  },
 ]);
 
 // initialize components based on data attribute selectors
