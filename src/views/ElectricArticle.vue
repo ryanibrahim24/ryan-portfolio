@@ -206,6 +206,22 @@ const projects = ref([
     ],
     modal: "inverter",
   },
+  {
+    title: "Time Delay Relay",
+    img: "tdr-1.svg",
+    materi: [
+      "tdr-1.svg",
+      "tdr-2.svg",
+      "tdr-3.svg",
+      "tdr-4.svg",
+      "tdr-5.svg",
+      "tdr-6.svg",
+      "tdr-7.svg",
+      "tdr-8.svg",
+      "kf-7.svg",
+    ],
+    modal: "tdr",
+  },
 ]);
 
 // initialize components based on data attribute selectors
