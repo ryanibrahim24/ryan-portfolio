@@ -325,6 +325,29 @@ const projects = ref([
     ],
     modal: "gerbang",
   },
+  {
+    title: "Star Delta",
+    img: "stardelta-1.svg",
+    materi: [
+      "stardelta-1.svg",
+      "stardelta-2.svg",
+      "stardelta-3.svg",
+      "stardelta-4.svg",
+      "stardelta-5.svg",
+      "stardelta-6.svg",
+      "stardelta-7.svg",
+      "stardelta-8.svg",
+      "stardelta-9.svg",
+      "stardelta-10.svg",
+      "stardelta-11.svg",
+      "stardelta-12.svg",
+      "stardelta-13.svg",
+      "stardelta-14.svg",
+      "stardelta-15.svg",
+      "kf-7.svg",
+    ],
+    modal: "stardelta",
+  },
 ]);
 
 // initialize components based on data attribute selectors
